@@ -1,6 +1,6 @@
 package com.concurrentperformance.ringingmaster.ui.common;
 
-import com.concurrentperformance.ringingmaster.engine.parser.ParseType;
+import com.concurrentperformance.ringingmaster.engine.touch.parser.ParseType;
 import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
 import org.slf4j.Logger;
