@@ -1,4 +1,17 @@
-dependencies {
-    compile project(':ringingmaster-engine')
+apply plugin: 'java'
 
+group 'com.concurrentperformance.ringingmaster'
+version '1.0.0'
+
+compileJava {
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.concurrentperformance.ringingmaster:ringingmaster-engine:1.0.0'
 }
