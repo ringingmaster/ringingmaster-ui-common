@@ -98,6 +98,7 @@ public class CompositionStyle {
             case DEFINITION_MULTIPLIER:
                 return getColour(CompositionStyleColor.DEFINITION);
             case VARIANCE_OPEN:
+            case VARIANCE_DETAIL:
             case VARIANCE_CLOSE:
                 return getColour(CompositionStyleColor.VARIANCE);
             case MULTIPLIER_GROUP_OPEN:
