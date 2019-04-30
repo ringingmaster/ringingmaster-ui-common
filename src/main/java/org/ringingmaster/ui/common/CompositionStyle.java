@@ -62,7 +62,7 @@ public class CompositionStyle {
         setColor(CompositionStyleColor.CHANGED_LH, Color.rgb(100, 0, 0));
         setColor(CompositionStyleColor.GRID, Color.GREY);
 
-        setColor(CompositionStyleColor.FALLBACK, Color.BLACK);
+        setColor(CompositionStyleColor.FALLBACK, Color.RED);
 
         setFont(CompositionStyleFont.TITLE, new Font("Arial", 24));
         setFont(CompositionStyleFont.AUTHOR, new Font("Arial", 27));
