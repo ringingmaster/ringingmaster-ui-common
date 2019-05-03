@@ -39,7 +39,7 @@ public class CompositionStyle {
         TITLE,
         AUTHOR,
         MAIN,
-        DEFINITION,
+        MAIN_VARIANCE,
         NOTES
     }
 
@@ -66,8 +66,8 @@ public class CompositionStyle {
 
         setFont(CompositionStyleFont.TITLE, new Font("Arial", 24));
         setFont(CompositionStyleFont.AUTHOR, new Font("Arial", 27));
-        setFont(CompositionStyleFont.MAIN, new Font("Arial", 40));
-        setFont(CompositionStyleFont.DEFINITION, new Font("Arial", 30));
+        setFont(CompositionStyleFont.MAIN, new Font("Arial", 30));
+        setFont(CompositionStyleFont.MAIN_VARIANCE, new Font("Arial", 15));
         setFont(CompositionStyleFont.NOTES, new Font("Arial", 10));
     }
 
