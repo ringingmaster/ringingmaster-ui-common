@@ -30,6 +30,7 @@ public class CompositionStyle {
         UNCHANGED_LH,
         CHANGED_LH,
 
+        DEFINITION_GRID,
         GRID,
 
         FALLBACK,
@@ -53,7 +54,7 @@ public class CompositionStyle {
         setColor(CompositionStyleColor.BLOCK, Color.rgb(140, 140, 140));
         setColor(CompositionStyleColor.VARIANCE, Color.rgb(108, 0, 108));
         setColor(CompositionStyleColor.GROUP, Color.rgb(0, 128, 128));
-        setColor(CompositionStyleColor.DEFINITION, Color.rgb(140, 140, 140));
+        setColor(CompositionStyleColor.DEFINITION,Color.rgb(140, 140, 140));
         setColor(CompositionStyleColor.PLAIN_LEAD, Color.rgb(141, 183, 91));
         setColor(CompositionStyleColor.NOTES, Color.rgb(0, 0, 0));
         setColor(CompositionStyleColor.TITLE, Color.rgb(0, 0, 0));
@@ -61,6 +62,7 @@ public class CompositionStyle {
         setColor(CompositionStyleColor.UNCHANGED_LH, Color.rgb(170, 170, 170));
         setColor(CompositionStyleColor.CHANGED_LH, Color.rgb(100, 0, 0));
         setColor(CompositionStyleColor.GRID, Color.GREY);
+        setColor(CompositionStyleColor.DEFINITION_GRID, Color.rgb(220, 220, 220));
 
         setColor(CompositionStyleColor.FALLBACK, Color.RED);
 
