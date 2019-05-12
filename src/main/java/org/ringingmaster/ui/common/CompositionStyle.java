@@ -30,8 +30,10 @@ public class CompositionStyle {
         UNCHANGED_LH,
         CHANGED_LH,
 
+        COMPOSITION_GRID,
+        COMPOSITION_GRID_SEPARATOR,
         DEFINITION_GRID,
-        GRID,
+        DEFINITION_GRID_SEPARATOR,
 
         FALLBACK,
     }
@@ -61,8 +63,10 @@ public class CompositionStyle {
         setColor(CompositionStyleColor.AUTHOR, Color.rgb(0, 0, 129));
         setColor(CompositionStyleColor.UNCHANGED_LH, Color.rgb(170, 170, 170));
         setColor(CompositionStyleColor.CHANGED_LH, Color.rgb(100, 0, 0));
-        setColor(CompositionStyleColor.GRID, Color.GREY);
+        setColor(CompositionStyleColor.COMPOSITION_GRID, Color.GREY);
+        setColor(CompositionStyleColor.COMPOSITION_GRID_SEPARATOR, Color.rgb(80, 80, 80));
         setColor(CompositionStyleColor.DEFINITION_GRID, Color.rgb(220, 220, 220));
+        setColor(CompositionStyleColor.DEFINITION_GRID_SEPARATOR, Color.GREY);
 
         setColor(CompositionStyleColor.FALLBACK, Color.RED);
 
