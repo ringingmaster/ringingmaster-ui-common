@@ -65,8 +65,8 @@ public class CompositionStyle {
         setColor(CompositionStyleColor.CHANGED_LH, Color.rgb(100, 0, 0));
         setColor(CompositionStyleColor.COMPOSITION_GRID, Color.GREY);
         setColor(CompositionStyleColor.COMPOSITION_GRID_SEPARATOR, Color.rgb(80, 80, 80));
-        setColor(CompositionStyleColor.DEFINITION_GRID, Color.rgb(220, 220, 220));
-        setColor(CompositionStyleColor.DEFINITION_GRID_SEPARATOR, Color.GREY);
+        setColor(CompositionStyleColor.DEFINITION_GRID, Color.rgb(240, 240, 240));
+        setColor(CompositionStyleColor.DEFINITION_GRID_SEPARATOR, Color.rgb(240, 240, 240));
 
         setColor(CompositionStyleColor.FALLBACK, Color.RED);
 
